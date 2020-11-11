@@ -1,0 +1,46 @@
+/*https://coolors.co/283d3b-197278-edddd4-c44536-772e25*/
+
+
+.color-1{
+    color: #283d3b;
+}
+
+.color-2{
+    color: #197278;
+}
+
+.color-3{
+    color: #edddd4;
+}
+
+.color-4{
+    color: #c44536
+}
+
+.color-5{
+    color: #772e25
+}
+
+.bg-color-1{
+    background-color: #283d3b;
+}
+
+.bg-color-2{
+    background-color: #197278;
+}
+
+.bg-color-3{
+    background-color: #edddd4;
+}
+
+.bg-color-4{
+    background-color: #c44536;
+}
+
+.bg-color-5{
+    background-color: #772e25;
+}
+
+.icon-color-3 > path {
+    stroke: #edddd4;
+}

@@ -1,0 +1,87 @@
+.verticalLine {
+    width: 3px; /* Line width */
+    background-color: #c44536; /* Line color */
+    height: 100%; /* Override in-line if you want specific height. */
+}
+
+.vertical-center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.horizontal-center {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.center {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+.timeline-item {
+    max-height: 500px;
+}
+
+.timeline-item-date {
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    right: 0;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+}
+
+.timeline-item-content {
+
+
+}
+
+.timeline-circle {
+    height: 30px;
+    width: 30px;
+    background-color: #772e25;
+}
+
+.circle {
+    border-radius: 50%;
+}
+
+.profile-picture {
+    width: 50%;
+    object-fit: cover;
+}
+
+.icon {
+    width: 30px;
+    height: 30px;
+    margin-bottom: 8px;
+    margin-right: 20px;
+}
+
+.sidebar-item:hover *{
+   color: #ffffff;
+   stroke: white;
+}
+
+.sidebar-item:hover {
+    color: #ffffff;
+}
+
+.sidebar-item {
+    font-size: 28px;
+    cursor: pointer;
+    -moz-transition: all .2s ease-in;
+    -o-transition: all .2s ease-in;
+    -webkit-transition: all .2s ease-in;
+    transition: all .2s ease-in;
+    color: #edddd4;
+}
+
