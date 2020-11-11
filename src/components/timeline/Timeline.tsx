@@ -1,5 +1,6 @@
 import * as React from 'react';
 import TimelineEntry from "./TimelineEntry";
+import TimelineItems from '../../models/timeline_items';
 
 interface PropTypes {
 
@@ -23,18 +24,19 @@ class Timeline extends React.Component<PropTypes, StateTypes> {
     render() {
         return (
             <div className="px-3">
-                <TimelineEntry
-                     date={"December 20, 2019"} description={"I did a thing and it was very good and I am very happy with said thing. In addition, I really do think that this is indeed more filler and I am not really going anywhere with ths"}
-                     flipped={false} heading={"Heading"}
-                 classification={"Job"}/>
-                <TimelineEntry
-                    date={"December 20, 2019"} description={"I did a thing and it was very good and I am very happy with said thing. In addition, I really do think that this is indeed more filler and I am not really going anywhere with ths"}
-                    flipped={true} heading={"Heading"} technologies={"Coffee, Lofi, Electricity"}
-                 classification={"Project"} img_src={"https://hatrabbits.com/wp-content/uploads/2018/10/risky-assumptions.jpg"}/>
-                <TimelineEntry
-                    date={"December 20, 2019"} description={"I did a thing and it was very good and I am very happy with said thing. In addition, I really do think that this is indeed more filler and I am not really going anywhere with ths"}
-                    flipped={false} heading={"Heading"} technologies={"Coffee, Lofi, Electricity"}
-                    classification={"Project"} img_src={"https://wallpaperaccess.com/full/331659.jpg"}/>
+                {
+                    TimelineItems.map((item, index) => {
+                        return (
+                            <div key={`timeline-item_${index}`}>
+                                <TimelineEntry
+                                    date={item.date} description={item.description}
+                                    flipped={index % 2 !== 0} heading={item.heading} technologies={item.technologies}
+                                    classification={item.classification}
+                                    img_src={item.img_src}/>
+                            </div>
+                        )
+                    })
+                }
             </div>
         )
     }

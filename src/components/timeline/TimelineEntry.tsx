@@ -4,9 +4,9 @@ import {Moment} from "moment";
 
 interface PropTypes {
     date: string,
-    classification: string
     heading: string,
     flipped: boolean,
+    classification ?: string
     description ?: string,
     img_src ?: string,
     technologies ?: string,
@@ -38,12 +38,12 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
             <div className="card p-3 timeline-item-content color-1">
                 {img_src && <img className="card-img-top" src={img_src} alt={heading}/>}
                 <div className="card-body">
-                    <h5 className="card-title">{heading}</h5>
+                    <h5 className="card-title">{classification ? classification + " - " + heading: heading}</h5>
                     {description && <p className="card-text">{description}</p>}
                     {technologies && <p className="card-text"><p className="font-weight-bold d-inline-block mr-2"> Technologies Used: </p>
                         {technologies}
-                    </p> }
-                    <p className="card-text"><small className="text-muted">{classification}</small></p>
+                    </p>
+                    }
                 </div>
             </div>
             /*<div className={`card `}>
