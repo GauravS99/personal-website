@@ -39,7 +39,7 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
                     <h5 className="card-title">{classification ? classification + " - " + heading: heading}</h5>
                     {description && <p className="card-text">{description}</p>}
                     {technologies &&
-                        <p className="card-text"><p className="font-weight-bold d-inline-block mr-2"> Technologies Used: </p>
+                        <p className="card-text"><p className="font-weight-bold d-inline-block mr-2 mb-0"> Technologies Used: </p>
                             {technologies}
                         </p>
                     }

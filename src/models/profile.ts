@@ -6,9 +6,9 @@ export interface ProfileI {
 }
 
 export const dummyProfile : ProfileI = {
-    name: "John Smith",
-    github: "https://github.com/",
-    linkedin: "https://www.linkedin.com",
-    resume: "https://www.google.com/search?q=resume"
+    name: "Gaurav Sharma",
+    github: "https://github.com/GauravS99",
+    linkedin: "https://www.linkedin.com/in/gaurav-sharma-17b956163/",
+    resume: "https://www.dropbox.com/s/5fkxcegatw2h563/gaurav_sharma_resume.pdf?dl=0"
 }
 
