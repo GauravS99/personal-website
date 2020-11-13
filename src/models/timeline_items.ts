@@ -20,9 +20,10 @@ const TimelineItems : TimelineItemI[] = [
         date: "Nov 13, 2020",
         classification: Classifications.project,
         heading: "Personal Website",
-        description: ":)",
+        description: "Self explanatory.",
         technologies: "React, TypeScript",
-        img_src: "https://www.dropbox.com/s/f22r455bn8gzezd/personal-site.PNG?raw=1"
+        img_src: "https://www.dropbox.com/s/f22r455bn8gzezd/personal-site.PNG?raw=1",
+        link: "https://gauravs99.github.io/personal-website/"
     },
     {
         date: "May 12, 2020",
