@@ -27,7 +27,7 @@
 }
 
 .timeline-item {
-    max-height: 500px;
+
 }
 
 .timeline-item-date {
@@ -40,9 +40,17 @@
 }
 
 .timeline-item-content {
-
-
+    opacity: 0.9;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
 }
+
+.timeline-item-content:hover {
+    opacity: 1;
+}
+
 
 .timeline-circle {
     height: 30px;

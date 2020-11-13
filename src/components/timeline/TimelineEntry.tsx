@@ -1,15 +1,12 @@
 import * as React from 'react';
 import * as moment from 'moment'
 import {Moment} from "moment";
+import {TimelineItemI} from "../../models/timeline_items";
+import {AiOutlineLink} from "react-icons/all";
 
 interface PropTypes {
-    date: string,
-    heading: string,
-    flipped: boolean,
-    classification ?: string
-    description ?: string,
-    img_src ?: string,
-    technologies ?: string,
+    flipped: boolean
+    item: TimelineItemI
 }
 
 interface StateTypes {
@@ -24,7 +21,8 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
     }
 
     render() {
-        const {date, heading, description, technologies, flipped, classification, img_src} = this.props;
+        const {flipped, item} = this.props;
+        const {date, heading, description, technologies, classification, img_src, link} = item;
 
         let side1 = (
             <div className={`color-4 d-inline-block ${flipped ? "vertical-center" : "timeline-item-date"}`}>
@@ -40,28 +38,19 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
                 <div className="card-body">
                     <h5 className="card-title">{classification ? classification + " - " + heading: heading}</h5>
                     {description && <p className="card-text">{description}</p>}
-                    {technologies && <p className="card-text"><p className="font-weight-bold d-inline-block mr-2"> Technologies Used: </p>
-                        {technologies}
-                    </p>
+                    {technologies &&
+                        <p className="card-text"><p className="font-weight-bold d-inline-block mr-2"> Technologies Used: </p>
+                            {technologies}
+                        </p>
+                    }
+                    {link &&
+                        <a className="d-block" href={link} target={"_blank"} rel="noreferrer">
+                            <AiOutlineLink style={{height: 20, width: 20, marginRight: 7, marginBottom: 5}}/>
+                            {link}
+                        </a>
                     }
                 </div>
             </div>
-            /*<div className={`card `}>
-                <h3 className="timeline-item-classification">{classification}</h3>
-                <h3>{heading}</h3>
-                <h6>
-                    {description}
-                </h6>
-                {
-                    technologies  &&
-                    <div>
-                        <h6 className="font-weight-bold d-inline-block mr-2"> Technologies Used: </h6>
-                        <h6 className="d-inline-block">
-                            {technologies}
-                        </h6>
-                    </div>
-                }
-            </div>*/
         )
 
         if(flipped){

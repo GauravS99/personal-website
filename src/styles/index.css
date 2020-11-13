@@ -12,12 +12,7 @@ code {
     monospace;
 }
 
-a {
-  color: inherit; /* blue colors for links too */
-  text-decoration: none; /* no underline */
-}
-
-a:hover, a:visited, a:link, a:active
+.suppressed-a:hover, .suppressed-a:visited, .suppressed-a:link, .suppressed-a:active
 {
   color: inherit; /* blue colors for links too */
   text-decoration: none;

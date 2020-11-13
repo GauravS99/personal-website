@@ -29,10 +29,8 @@ class Timeline extends React.Component<PropTypes, StateTypes> {
                         return (
                             <div key={`timeline-item_${index}`}>
                                 <TimelineEntry
-                                    date={item.date} description={item.description}
-                                    flipped={index % 2 !== 0} heading={item.heading} technologies={item.technologies}
-                                    classification={item.classification}
-                                    img_src={item.img_src}/>
+                                    flipped={index % 2 !== 0}
+                                    item={item}/>
                             </div>
                         )
                     })

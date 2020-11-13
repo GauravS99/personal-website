@@ -40,21 +40,21 @@ class Sidebar extends React.Component<PropTypes, StateTypes> {
                     <div className="d-inline-block text-left">
                         {
                             profile.resume &&
-                            <a className="d-block mt-3 sidebar-item" href={profile.resume} target={"_blank"} rel="noreferrer">
+                            <a className="suppressed-a d-block mt-3 sidebar-item" href={profile.resume} target={"_blank"} rel="noreferrer">
                                 <GrDocumentText className="d-inline-block icon-color-3 icon" />
                                 Resume
                             </a>
                         }
                         {
                             profile.github &&
-                            <a className="d-block mt-3 sidebar-item" href={profile.github} target={"_blank"} rel="noreferrer">
+                            <a className="suppressed-a d-block mt-3 sidebar-item" href={profile.github} target={"_blank"} rel="noreferrer">
                                 <AiFillGithub className="d-inline-block icon"/>
                                 GitHub
                             </a>
                         }
                         {
                             profile.linkedin &&
-                            <a className="d-block mt-3 sidebar-item" href={profile.linkedin} target={"_blank"} rel="noreferrer">
+                            <a className="suppressed-a d-block mt-3 sidebar-item" href={profile.linkedin} target={"_blank"} rel="noreferrer">
                                 <AiFillLinkedin className="d-inline-block icon"/>
                                 LinkedIn
                             </a>
