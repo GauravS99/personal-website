@@ -51,6 +51,19 @@
     opacity: 1;
 }
 
+.timeline-item-content:hover .timeline-heading{
+    font-size: 23px;
+    color: #c44536;
+}
+
+.timeline-heading {
+    font-size: 22px;
+    color: #283d3b;
+    -moz-transition: all .1s ease-in;
+    -o-transition: all .1s ease-in;
+    -webkit-transition: all .1s ease-in;
+    transition: all .1s ease-in;
+}
 
 .timeline-circle {
     height: 30px;
@@ -63,7 +76,8 @@
 }
 
 .profile-picture {
-    width: 50%;
+    width: 300px;
+    height: 300px;
     object-fit: cover;
 }
 
@@ -92,4 +106,6 @@
     transition: all .2s ease-in;
     color: #edddd4;
 }
+
+
 

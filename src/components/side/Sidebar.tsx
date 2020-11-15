@@ -2,7 +2,6 @@ import * as React from 'react';
 import ProfilePicture from "../profile/ProfilePicture";
 import {ProfileI} from "../../models/profile";
 import {AiFillGithub, AiFillLinkedin, GrDocumentText} from "react-icons/all";
-import COLORS from "../../helpers/colors";
 
 interface PropTypes {
     profile: ProfileI
@@ -29,12 +28,23 @@ class Sidebar extends React.Component<PropTypes, StateTypes> {
         return (
             <div className="p-4 text-center color-3">
                 <div>
-                    <ProfilePicture/>
+                    <ProfilePicture src={profile.pfp_src}/>
                 </div>
                 <div className="mt-4">
                     <h1 className="">
                         {profile.name}
                     </h1>
+                    <div>
+                        {profile.email &&
+                            <h6 className="text-white d-inline-block"> {profile.email} </h6>
+                        }
+                        {profile.email && profile.phone &&
+                            <h6 className="text-white d-inline-block px-2">•</h6>
+                        }
+                        {profile.phone &&
+                            <h6 className="text-white d-inline-block"> {profile.phone}</h6>
+                        }
+                    </div>
                 </div>
                 <div className="mt-5">
                     <div className="d-inline-block text-left">

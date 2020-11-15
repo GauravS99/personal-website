@@ -36,7 +36,7 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
             <div className="card p-3 timeline-item-content color-1">
                 {img_src && <img className="card-img-top" src={img_src} alt={heading}/>}
                 <div className="card-body">
-                    <h5 className="card-title">{classification ? classification + " - " + heading: heading}</h5>
+                    <h5 className="card-title timeline-heading">{classification ? classification + " - " + heading: heading}</h5>
                     {description && <p className="card-text">{description}</p>}
                     {technologies &&
                         <p className="card-text"><p className="font-weight-bold d-inline-block mr-2 mb-0"> Technologies Used: </p>
