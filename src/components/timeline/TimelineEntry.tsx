@@ -48,8 +48,10 @@ class TimelineEntry extends React.Component<PropTypes, StateTypes> {
                     }
                     {link &&
                         <a className="d-block" href={link} target={"_blank"} rel="noreferrer">
-                            <AiOutlineLink style={{height: 20, width: 20, marginRight: 7, marginBottom: 5}}/>
-                            {link}
+                            <AiOutlineLink style={{height: 20, width: 20, marginRight: 5, marginBottom: 4}}/>
+                            <span style={{wordBreak: "break-all"}}>
+                                {link}
+                            </span>
                         </a>
                     }
                 </div>
