@@ -8,7 +8,10 @@ interface PropTypes {
 
 const ProfilePicture = (props: PropTypes) => {
     return (
-        <img src={props.src ? props.src : defaultProfilePic} alt="profile" className="circle profile-picture" />
+        <img src={props.src ? props.src : defaultProfilePic}
+             alt="profile"
+             className="circle profile-picture"
+        />
     );
 }
 

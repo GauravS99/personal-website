@@ -22,7 +22,7 @@ const TimelineItems : TimelineItemI[] = [
         heading: "Personal Website",
         description: "Self explanatory.",
         technologies: "React, TypeScript",
-        img_src: "https://previews.dropbox.com/p/thumb/AA_8mphz1sCKYpY3dte0Sjykdc3gFwdeHJrj0KpY1GX1fi0gwEPq922uSxIc93aEmAvQTzqPHWE7Z0laBQAC2qPKITSUvxyiSebPibnZ8Bb2OBfMhGhqjhs09ZP3Z_AnKAr3Jwe7UMd6Kldxsuf9WELhbOB69vvAX62ugo0cbxCoguknoXVq0OBG_DtxO9GO7FoqdogcY6VVbZO_Z3j_CdOSLauBtWZTZDKNy_g2PnFeUh7cVMvriyfKcuUZrgpQKGRjSNPO-ZE2Lh_1Q-er012ms_r6eVbXg_6irSbnyCrKnKg8xDku0N0TW7yl0yDvL3VjQeywsSMAI3P-xB2baUa64wLa2dt407RaS__KuFbv7g/p.png",
+        img_src: "https://www.dropbox.com/s/f22r455bn8gzezd/personal-site.PNG?raw=1",
         link: "https://gauravs99.github.io/personal-website/"
     },
     {
@@ -43,13 +43,13 @@ const TimelineItems : TimelineItemI[] = [
         description: "Began my 12 month internship at Thomson Reuters. Their tech stack is completely new for me, so I am hoping to learn " +
             "a lot.",
         technologies: ".NET Framework, .NET Core, C#, Microsoft SQL Server, Docker, Jenkins, AWS",
-        img_src: "https://previews.dropbox.com/p/thumb/AA81ZljGk8LDIz9uuwuQLNzYNVKTGT2BUw5yniAhaWMoWZCqReKjP3fGIzzMEzosU44MRksnBBtv2vO-RCmPZuWbEvHQa9IlYgOAUrVzaMSukn2JIpUfHJ-SAyg1UIW5VNmx3VQSaJRZHNNvBxVkPD6kJjq94Q5C4ncsranHcBTn-0f8ajea8PxETvyopN8WDOEAzC18oHnSXBsah6xpLpQEKFKe7VUkmawLZXXHk7MHzFBX9EQklWN2oG0uFh2aalu5MH1C5ARhaneN_h4uZsA2ya-QYdz81_IWCOHMCEKYrWzxJrOEj2vmyDLMccYbkuIjikymbJGWP821n8JJl6SBRD_JIQpmjzS2JCFEjx4UyA/p.jpeg",
+        img_src: "https://www.dropbox.com/s/xf273xzt0qesl8z/tr.jpg?raw=1",
     },
     {
         date: "Sep 13, 2019",
         classification: Classifications.hackathon,
         heading: "Hack The North",
-        img_src: "https://previews.dropbox.com/p/thumb/AA8m1DsP5lB-2mbdllNWPxYITZmF8iWo2FnLEjrg8YhFSFR0gt48kiXRjzBoSrZNepTWLhJqC2AjxbJ4nszlrRAw5nUoTfgrLSbJDE1SgdiC97SLpSgF9GqyucGs9HuqmAQqXMw2y63Jm5ojJsn6kmBxVHiojnBD8OJRrAfhtG-sLTJN4dbeMORkNwdcGzA_Q4N3Ro9ffVB4088NH0qK3p-FcMHJ2h_st22kkSURIZ-y6_D0RsxhlwOqDGxCzMct0ZxmbzyOWSQ21byH2WWOyaJ_EKrrCWKiDtoyH_HJcloTwfNVzXmkBAlUIWID3Pgz57_3UmgwqZPTx2c15hJcyG0Drp3Sq93_kkHMVaWDOC91rA/p.png",
+        img_src: "https://www.dropbox.com/s/7atgon5ht2ubtdc/hackthenorth.png?raw=1",
         description: "Sent some applications, completed some workshops, made some friends.",
     },
     {
@@ -61,7 +61,7 @@ const TimelineItems : TimelineItemI[] = [
             "Thomson Reuters.",
         technologies: "Javascript, TypeScript, Express.js, React, Redux, Docker, MongoDB",
         link: "https://www.onetapcheckin.com/",
-        img_src: "https://previews.dropbox.com/p/thumb/AA-CmNV4n8g8N-KSkNZJkL2ybbwyocVlCcBsm4EOQDZSSe9Y7s_JmvN8-Mlw6hKg4vQflEI80wna4EsZk9aU-bWoh4RAF_cDwiZYjRj1Lfc90nJbGDSkhBKY6VmzQ5HGlvvUat7O7-ZD14GA597vxGanJdVJJ0LsMHyc291dfymLKUmZI-FbPk16GPdbqCrj3y0wFe0hU7UyhN33YQ3Cdv_XOtGmrqJRmfXrJOfsArR89ckQseaa-hqXNfcGg4yR2X40FyQU7SgXzHJnHvG9g7uR7ccLSHxSK68KbYpCPOuVW-uA8poLK0M2X_84rq6gsbK0_WDaCeUhih8vU3BD6EpDmAtmROGQQUNTUcZQNduapQ/p.png",
+        img_src: "https://www.dropbox.com/s/rfoedtlfvmcwpnv/Logo_branded_horizontal-arial-p-800.png?raw=1",
     },
     {
         date: "Jun 2019",
@@ -79,7 +79,7 @@ const TimelineItems : TimelineItemI[] = [
         description: "Worked alongside other organizers to plan UC Hacks, the first ever " +
             "hackathon at my university residence. I conducted a workshop teaching Firebase fundamentals for Android so" +
             " that attendees could use it in a serverless application",
-        img_src: "https://previews.dropbox.com/p/thumb/AA8R6zoASFGBNGK7ioNF3FIYNA3pPG0nq3qWVCo1h7tsgd45xEF6BdHjkmAVBUpDjom_yjsWpTQDkrM4yIHnDNQ_SnOPJe9oe5fKFM29vcr2f8cUEnBSZiCrrV5BUYee8hG9eUWsdSUYtb6C87OkVhFl28dFrvbGVeoVmeheQrKMlnTnPEq7mse2NUNOsCBBuRWP--l_kLQFkc9Va2YWTAPXEe3eiH98zcYG6a_PDwz2JHX1KrGalUQF5-tEoNvlKQoPi214Quo-0gDRGZrjJ8XDvuiXJEvS2onmRFfz75QlP5QtIGrnpQs80RdrNfCH0Tw79nJxuhNsDaTNl2kJIaelVfAH_bBGdba44XzvPrx10Q/p.png",
+        img_src: "https://www.dropbox.com/s/i7doc2d5vmxd82m/logo.png?raw=1",
         link: "https://www.facebook.com/UCHackathon2019"
     },
     {
@@ -87,7 +87,7 @@ const TimelineItems : TimelineItemI[] = [
         classification: Classifications.education,
         heading: "University of Toronto",
         description: "Began my education pursing a degree in Computer Science and a minor in statistics",
-        img_src: "https://previews.dropbox.com/p/thumb/AA_7947BlptsoCWljPs8wXPN0fin0N-T0I6XlfuZkd8-N66ihCOnUpRf8cKCXyPqxtaDkQHLBYs69ToN2iIczRw1yngwN7JlduEyQD69sGZTXhhHGEgZqfxFNgFVvwAv2_13-vmDuE4D57VFlmRItM28G1mG5vLthKXiuBcoiRLeAiohL5ne-YVosEE1CVFXC_Nm1qp1axhkZv0O__9JxhxmkGsa_PNTxpAKsKuozQ4bBX7tvKJLmeCZazuOKJj3f7n2xi8qQV0rw8bPU6T8a9bha1Inu8z8bR50n8YBpjxS8qAH7100_ih72kJMk_GewCkP80MywQ_8lAZ1FxkAOFoog55O9F2VV567DRvdqiFVAw/p.png"
+        img_src: "https://www.dropbox.com/s/2pdkdgkyqcu2ibw/uoft.png?raw=1"
     },
 ]
 

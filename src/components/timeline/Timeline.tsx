@@ -23,7 +23,7 @@ class Timeline extends React.Component<PropTypes, StateTypes> {
 
     render() {
         return (
-            <div className="px-3">
+            <div className="content px-3">
                 {
                     TimelineItems.map((item, index) => {
                         return (

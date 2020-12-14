@@ -53,7 +53,6 @@
 
 .timeline-item-content:hover .timeline-heading{
     font-size: 23px;
-    color: #c44536;
 }
 
 .timeline-heading {
@@ -75,12 +74,6 @@
     border-radius: 50%;
 }
 
-.profile-picture {
-    width: 300px;
-    height: 300px;
-    object-fit: cover;
-}
-
 .icon {
     width: 30px;
     height: 30px;
@@ -100,6 +93,8 @@
 .sidebar-item {
     font-size: 28px;
     cursor: pointer;
+    margin-left: 10px;
+    margin-right: 10px;
     -moz-transition: all .2s ease-in;
     -o-transition: all .2s ease-in;
     -webkit-transition: all .2s ease-in;
@@ -107,5 +102,69 @@
     color: #edddd4;
 }
 
+.sidebar {
+    margin: 0;
+    padding: 0;
+    width: 400px;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+.sidebar span{
+    display: block;
+}
+
+.content {
+    margin-left: 400px;
+    height: 100%;
+    overflow: auto;
+}
+
+.profile-picture {
+    width: 300px;
+    height: 300px;
+    object-fit: cover;
+    padding: 10px;
+}
+
+.date-internal {
+    display: none;
+}
+
+@media screen and (max-width: 1000px) {
+    .sidebar {
+        width: 100%;
+        height: auto;
+        position: relative;
+    }
+    .sidebar span {
+        text-align: center;
+        float: none;
+    }
+    .content {margin-left: 0;}
+    .profile-picture {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .sidebar span {
+        text-align: center;
+        float: none;
+    }
+    .date-internal {
+        display: block;
+    }
+    .hide-timeline {
+        display: none;
+    }
+    .show-timeline {
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+}
 
 
