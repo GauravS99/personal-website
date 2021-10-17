@@ -17,6 +17,25 @@ enum Classifications {
 
 const TimelineItems : TimelineItemI[] = [
     {
+        date: "September 1, 2021",
+        classification: Classifications.career,
+        heading: "Residence Advisor/Don @ University College",
+        description: "This is not technical, but it's a great opportunity to develop stronger leadership and mentorship skills." +  
+            " Being able to organize fun events to make their year memorable" + 
+            " is it's own reward. The free food and housing is good too, though.",
+        img_src: "https://www.dropbox.com/s/vty7eim4iah1jbj/1550625679947.jpg?raw=1",
+        link: "https://www.uc.utoronto.ca"
+    },
+    {
+        date: "August 20, 2021",
+        classification: Classifications.career,
+        heading: "Software Developer Intern @ Thomson Reuters",
+        description: "After 16 months, my internship at Thomson Reuters has ended. I learned more than I even hoped to and enjoyed every second. Probably the most memorable" + 
+        " experience was running a project after the senior developer left. I established myself as a strong member of the team and was able to deliver the project to production",
+        technologies: ".NET Framework, .NET Core, C#, AWS, Microsoft SQL Server, Docker",
+        img_src: "https://www.dropbox.com/s/xf273xzt0qesl8z/tr.jpg?raw=1",
+    },
+    {
         date: "Nov 13, 2020",
         classification: Classifications.project,
         heading: "Personal Website",

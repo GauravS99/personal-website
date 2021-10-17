@@ -31,9 +31,9 @@ class Sidebar extends React.Component<PropTypes, StateTypes> {
                     <ProfilePicture src={profile.pfp_src}/>
                 </span>
                 <span>
-                    <h1>
+                    <h2>
                         {profile.name}
-                    </h1>
+                    </h2>
                     <div>
                         {profile.email &&
                             <h6 className="text-white d-inline-block"> {profile.email} </h6>
