@@ -12,9 +12,17 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 The page will reload if you make edits.\
 You will also see any lint errors in the console.
 
+
+## Deploying Updates
+
+This is more for me to keep track of how to deploy updates.
+
+
+After making changes, git commit and push them. Then, run:
+### `npm run build`
 ### `npm run deploy`
 
-This command was added to help publish updates to the website. Inspired by this tutorial: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
+Inspired by this tutorial: https://dev.to/yuribenjamin/how-to-deploy-react-app-in-github-pages-2a1f
 
 
 
