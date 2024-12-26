@@ -17,6 +17,18 @@ enum Classifications {
 
 const TimelineItems : TimelineItemI[] = [
     {
+        date: "June 4th, 2022",
+        classification: Classifications.career,
+        heading: "FPGA Software Developer @ Intel",
+        description: "I tried and failed to land an internship at Intel PSG in 2019. " +  
+            "In 2022, I had greater success. This job represents a pivot in my career " + 
+            "from the world of web development to the semi-conductor industry. I knew I " + 
+            "wanted to move into this industry because I was one of the few people who " +
+            "enjoyed the course on digital logic and computer organization in university. " +
+            "I like to know how computers really, really work. Not just high-level.", 
+        img_src: "https://www.dropbox.com/scl/fi/gqrxlu2oafkxepkv2gyi8/intel-logo.png?rlkey=4gvmevvr1mg6hegavswbjyxhh&st=18bmckmu&raw=1",
+    },
+    {
         date: "September 1, 2021",
         classification: Classifications.career,
         heading: "Residence Advisor/Don @ University College",
