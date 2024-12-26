@@ -17,6 +17,14 @@ enum Classifications {
 
 const TimelineItems : TimelineItemI[] = [
     {
+        date: "Jan 1st, 2025",
+        classification: Classifications.career,
+        heading: "FPGA Software Developer @ Altera",
+        description: "This is the same as my role at Intel PSG. The company is just Altera " +  
+            "now.",
+        img_src: "https://www.dropbox.com/scl/fi/80v025n2zb1iulwm94n2y/altera-logo.png?rlkey=tuvakg3rrcg4lcm2rlxpmvesd&st=57g5lyy6&raw=1",
+    },
+    {
         date: "June 4th, 2022",
         classification: Classifications.career,
         heading: "FPGA Software Developer @ Intel",
